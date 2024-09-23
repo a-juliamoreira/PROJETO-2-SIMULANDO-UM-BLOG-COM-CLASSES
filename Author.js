@@ -3,7 +3,7 @@ const Post = require('./Post')
 class Author {
     constructor(name) {
         this.name = name
-        this.post = post
+        this.posts = []
     }
     
 create_post(titulo, conteudo){
